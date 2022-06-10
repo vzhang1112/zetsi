@@ -47,3 +47,11 @@ $ git push origin main
     $ git push main origin:feb02-22
 
 *tl;dr:* push changes from `origin` to remote branch `feb02-22` tracked from remote repository `main`.
+
+### **Uploading a branch**
+
+```
+$ git push -u origin jun10-22
+```
+You know, the wiser way to do things where you don't wipe out all your 
+previous work. Will save you a heart attack if you introduce a bug.
